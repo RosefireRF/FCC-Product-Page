@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#how{
+    background-color: red;
+    height: 100vh;
+}
+#rrr {
+    background-color: blue;
+    height: 100vh;
+}
+#updates {
+    background-color: green;
+    height: 100vh;
+}
+#constant {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#links {
+    padding: 1vw 0vh 1vw 0vh;
+    height: 100%;
+}
+#links a{
+    vertical-align: middle;
+    font-size: 20px;
+    margin: 2vw;
+}
