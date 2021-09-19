@@ -5,6 +5,9 @@
 #how{
     background-color: red;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #rrr {
     background-color: blue;
@@ -28,12 +31,32 @@
     justify-content: center;
     align-items: center;
 }
-#links {
+#logo > *{
+    margin-right: 3vw;
+}
+#logo > p{
+    font-size: 20px;
+}
+#nav-bar {
     padding: 1vw 0vh 1vw 0vh;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#links a{
+#nav-bar > a{
     vertical-align: middle;
     font-size: 20px;
-    margin: 2vw;
+    margin: 0 2vh 0 2vh;
+}
+#header-img{
+    display: flex;
+    height: 6vh;
+}
+#video-holder{
+    margin-bottom: 20vh;
+    margin-top: 20vh;
+}
+video{
+    height: 70%;
 }
