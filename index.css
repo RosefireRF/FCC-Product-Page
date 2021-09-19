@@ -59,5 +59,10 @@
 }
 video{
     height: 70vh;
-    width: 90vw;
+    width: auto;
+}
+@media (max-width: 1024px){
+    video{
+        width: 90vw;
+    }
 }
