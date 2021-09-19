@@ -32,7 +32,7 @@
     align-items: center;
 }
 #logo > *{
-    margin-right: 3vw;
+    margin-left: 3vw;
 }
 #logo > p{
     font-size: 20px;
@@ -58,5 +58,6 @@
     margin-top: 20vh;
 }
 video{
-    height: 70%;
+    height: 70vh;
+    width: 90vw;
 }
