@@ -82,6 +82,7 @@
 .exp{
     width: 20vw;
     height: 20vw;
+    border: 0.2vw solid black;
     background-color: crimson;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
