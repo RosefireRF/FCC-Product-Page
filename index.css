@@ -10,12 +10,18 @@
     align-items: center;
 }
 #rrr {
-    background-color: blue;
+    background-color: whitesmoke;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #updates {
-    background-color: green;
+    background-color: whitesmoke;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #header {
     position: fixed;
@@ -64,13 +70,92 @@
     height: 70vh;
     width: 124vh;
 }
+#exp-holder{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+.exp{
+    width: 20vw;
+    height: 20vw;
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "main main main main";
+}
+.exp-header{
+    grid-area: header;
+    text-align: center;
+    font-size: 2vw;
+}
+.exp-text{
+    grid-area: main;
+    font-size: 1.5vw;
+}
+#form-holder{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#form{
+    width: 60%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10%;
+    grid-gap: 20%;
+    grid-template-areas: 
+    "text text"
+    "email email"
+    "submit submit"
+}
+#sign-text{    
+    font-size: 2vw;
+    grid-area: text;
+    color: green;
+}
+#email{
+    grid-area: email;
+    font-size: 2vw;
+}
+#submit{
+    grid-area: submit;
+}
 @media only screen and (max-width: 769px){
     #nav-bar > a{
         margin: 0 1vh 0 1vh;
     }
+    #exp-holder{
+        flex-direction: column;
+    }
+    .exp{
+        width: 80%;
+        height: 20vh;
+        height: fit-content;
+    }
+    .exp-header{
+        font-size: 5vw;
+    }
+    .exp-text{
+        font-size: 3vw;
+    }
+    #sign-text{
+        font-size: 5vw;
+    }
 }
 @media only screen and (max-width: 1024px){
-    #video-holder{
+    #video{
         width: 90vw;
     }
 }
